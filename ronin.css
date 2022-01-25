@@ -1,0 +1,252 @@
+/* body {
+    height:2000px;
+} */
+
+/* NAVBAR */
+
+.navBar{
+    border-bottom-right-radius: 55px;
+    width:20%;
+    font-family:'Yu Gothic';
+    background-image: url('img/fabric.jpg');
+    position:fixed;
+}
+.navBar a {
+    padding:15px;
+    color:rgba(255, 255, 255);
+}
+.navBar a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+/* RONIN */
+body {
+    background-image: url('img/12333.png');
+}
+.ronin {
+    height:100vh;
+    width:100vw;
+    /* border:2px solid red; */
+    display:flex;
+    
+}
+.ronin_textWrap {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    /* border:1px solid green; */
+}
+.ronin_text {
+    width:60%;
+    height:75%;
+
+    color: rgb(243, 56, 56);
+    margin:50px;
+    font-family:'Yu Gothic'; 
+    /* border:1px solid navy; */
+}
+.ronin_image {
+    width:30%;
+    height:86.5%;
+    border:2px solid white;
+    margin:50px; 
+    /* border:1px solid red; */
+    background-image: url('img/ronin1.jpg');
+    background-size: 100% 100%;
+}
+
+
+/* FIRST */
+
+.first{
+    height:120vh;
+    width:100%;
+    display:flex;
+}
+.first_image {
+    width:100%;
+    height:100%;
+    position:relative;
+    margin-top: 150%;
+    background-image: url('img/roninFirst.jpg');
+    background-repeat: no-repeat;
+}
+.first_image2 {
+    width:82%;
+    height:95%;
+    background-size: contain;
+    margin:15px;
+    /* margin-left:30%; */
+    position:relative;
+    background-image: url('img/roninSecond.jpg');
+}
+body {
+    overflow-x: hidden;
+}
+.first_text {
+    width:100%;
+    height:40%;
+    text-align: center;
+    /* background-color: rgba(243, 56, 56, 0.1); */
+    color: rgb(243, 56, 56);
+    margin-left: 110%;
+    position:relative;
+}
+.first_text p {
+    color:white;
+    font-family:'Yu Gothic';
+}
+.first_text2 p {
+    
+    font-family:'Yu Gothic';
+}
+.first_text2 {
+    text-align: center;
+    width:100%;
+    height:60%;
+    color: rgb(243, 56, 56);
+    /* margin-left:50%; */
+/* 
+    background-color: rgba(243, 56, 56, 0.1); */
+    /* background-color: rgba(207, 206, 206, 0.1); */
+    
+}   
+.image2_text2 {
+    margin-left:100%;
+    position: relative;
+}
+
+/* SECOND */
+
+/* .second {
+    width:100%;
+    height:90vh;
+    display:flex;
+
+} */
+.second_text {
+    width:100%;
+    height:90vh;
+    /* margin:20px; */
+    margin-left: 100%;
+    font-family:'Yu Gothic';
+    display:flex;
+    text-align: center;
+    position: relative;
+
+}
+.second_text p {
+    color:white;
+}
+.second_image {
+    padding:20px;
+    display:flex;
+    border:1px solid red;
+    width:100%;
+    height:50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    width:100%;
+    height:210px;
+    display:flex;
+    position:relative;
+    /* background-size: contain;
+    justify-content: center; */
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url('img/fabric.jpg');
+    right:0;
+}
+.footer_text {
+    width:15%;
+    height:80%;
+    color:rgb(243, 56, 56);
+    font-family:'Yu Gothic';
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.footer_text3 {
+    width:9%;
+    height:80%;
+    color:rgb(243, 56, 56);
+    font-family:'Yu Gothic';
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+.footer_text a {
+    color:rgb(243, 56, 56); 
+}
+.footer_text a:hover {
+    color:white;
+    text-decoration: none;
+}
+.footer_text3 a {
+    color:rgb(243, 56, 56); 
+}
+.footer_text3 a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.footer_text2 {
+    width:200px;
+    height:70px;
+    font-size: 40px;
+    text-align: center;
+
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.footer_text2 img {
+    width:50px;
+    height:50px;
+    border-radius:50%; 
+}
+.footer_text2 img:hover {
+    border:1px solid red;
+ 
+}
+.footer_img {
+    width:14%;
+    height:100%;
+
+    background-image: url('img/ensoWhite.png');
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+}
+
+.footer_virtues {
+    color:white;
+    width:440px;
+    height:30px;
+    margin-top:auto;
+    color:rgb(243, 56, 56); 
+    font-family:'Yu Gothic';
+}
+.footer_virtues span:hover{
+    color:white;
+    cursor: pointer;
+}

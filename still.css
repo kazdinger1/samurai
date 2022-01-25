@@ -1,0 +1,466 @@
+/* body {
+    height:4700px;
+} */
+
+
+/* NAVBAR */
+
+.navBar{
+    border-bottom-right-radius: 55px;
+    width:20%;
+    font-family:'Yu Gothic';
+    background-image: url('img/fabric.jpg');
+    position:fixed;
+}
+.navBar a {
+    padding:15px;
+    color:rgba(255, 255, 255);
+}
+.navBar a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+
+/* FIRST */
+
+.first {
+    background-image: url('img/risingSun2.png');
+    background-repeat: no-repeat;
+    width:100%; 
+    font-family:'Yu Gothic';
+    padding: 16px;
+    height: 100vh;
+}
+.first_inner {
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.first_text {
+    width:40%;
+    height:90%;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+.first_text p {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.first_picture {
+    margin:auto;
+    width:30%;
+    height:80%;
+    background-repeat:no-repeat;
+}
+
+/* SECOND */
+
+.second {
+    font-family:'Yu Gothic';
+    width:100%;
+    height: 80vh;
+    margin:auto;
+    background-image: url('img/linijaColor4.png');
+    background-size: 100% 100%;
+    /* background-image: url("img/japanBack2.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%; */
+    display: flex;
+}
+
+body {
+    background-image: url(img/linija2.png);
+}
+
+.banner {
+    width:20%;
+    height: 95%;
+    background-image: url('img/firstBanner.jpg');
+    border:2px solid black;
+    margin:auto;
+
+    color:black;
+}
+.banner2 {
+    width:20%;
+    height: 95%;
+    background-image: url('img/secondBanner.jpg');
+    border:2px solid black;
+    margin:auto;
+
+    color:black;
+}
+.banner3 {
+    width:20%;
+    height: 95%;
+    background-image: url('img/thirdBanner.jpg');
+    border:2px solid black;
+    margin:auto;
+
+    color:black;
+}
+.banner_inner {
+    width:100%;
+    height:100%;
+    
+}
+.banner_inner_head {
+    width:100%;
+    height:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_inner_head_img {
+    width:80%;
+    height:80%;
+    border:3px solid black;
+    border-radius:50%;
+}
+.banner_inner_body {
+    width:100%;
+    height:50%;
+    text-align: center;
+    font-size: 20px;
+}
+.header {
+    font-size: 50px;
+
+}
+
+/* THIRD */
+
+.third {
+    font-family:'Yu Gothic';
+    width:100%;
+    height:60vh;
+}
+.third_inner {
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.third_katana {
+    width:50%;
+    height:100%;
+    background-image: url(img/katanaImage.jpg);
+    background-size: 100% 100%;
+    
+}
+.third_nar {
+    width:13%;
+    height:50%;
+}
+.third_text {
+    width:50%;
+    height:80%;
+    background-color: rgba(228,199,167,0.8);
+
+}
+.third_text_head {
+    font-size: 50px;
+    text-align: center;
+}
+.third_text_body {
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+.third_nar img {
+    position: absolute;
+}
+#third_nar_slice2 {
+    opacity:0;
+    transition: opacity 0.5s linear;
+}
+#third_sliceButton{
+    background-image: url("img/dugme1.png");
+    background-size: 100% 100%;
+    width:50px; 
+    height:50px;
+    background-color: black;
+    transition: .7s;
+}
+#third_sliceButton:hover {
+    background-image: url("img/dugme2.png");
+}
+
+/* FOURTH */
+
+.fourth {
+    font-family:'Yu Gothic';
+    width:100%;
+    height:60vh;
+    /* background-color: rgba(228,199,167,0.8); */
+   
+}
+.fourth_inner {
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.fourth_image {
+    width:45%;
+    height:100%;
+    background-image: url(img/samuraiMask.jpg);
+
+   
+}
+.fourth_text {
+    width:55%;
+    height:80%;
+    background-color: rgba(228,199,167,0.8);
+}
+
+/* FIFTH */
+
+.fifth {
+    font-family:'Yu Gothic';
+    width:100%;
+    height:60vh;
+}
+
+.fifth_image {
+    width:50%;
+    height:100%;
+    background-image: url(img/dragon2.jpg);
+    background-size: 100% 100%;
+}
+
+/* PORTRAIT */
+
+.portrait {
+    background-image: url('img/japanBack2.jpg');
+    font-family:'Yu Gothic';
+    background-size: 100% 100%;
+    height:500px;
+    width:100%;
+    padding:20px;
+    color:rgba(247, 8, 8, 0.781);
+}
+
+/* SIXTH */
+
+.sixth {
+    width:100%;
+    height:80vh;
+
+    display:flex;
+}
+.sixth_div {
+    margin: 2px;
+    width:20%;
+    height:80vh;
+    border:1px solid black;
+}
+.sixth_div_head {
+    width:100%;
+    height:70%;
+}
+.sixth_div_body {
+    width:100%;
+    height:20%;
+}
+.sixth_div_body:hover {
+    border: 2px solid black;
+}
+.sixth_div p {
+    background-color: black;
+    text-align: center;
+    width:100%;
+    height:4%;
+    font-family:'Yu Gothic';
+    color:white;
+    margin:0;
+}
+.sixth_div_bottom {
+    background-image: url("img/red.jpg");
+    width:100%;
+    height:6%;
+    padding:0;margin:0;
+}
+.one {
+    background-image: url('img/zmaj2.jpg');
+}
+.two {
+    background-image: url(img/r1real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.three {
+    background-image: url(img/r2real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.four {
+    background-image: url(img/r3real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.five {
+    background-image: url(img/r4real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.six {
+    background-image: url(img/r5real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.seven {
+    background-image: url(img/r6real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.eight {
+    background-image: url(img/r7real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nine {
+    background-image: url(img/r8real.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* FOOTER */
+
+.footer{
+    width:100%;
+    height:210px;
+    display:flex;
+    position:relative;
+    /* background-size: contain;
+    justify-content: center; */
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url('img/fabric.jpg');
+    right:0;
+}
+.footer_text {
+    width:15%;
+    height:80%;
+    color:rgb(243, 56, 56);
+    font-family:'Yu Gothic';
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.footer_text3 {
+    width:9%;
+    height:80%;
+    color:rgb(243, 56, 56);
+    font-family:'Yu Gothic';
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    font-size: 20px;
+}
+.footer_text a {
+    color:rgb(243, 56, 56); 
+}
+.footer_text a:hover {
+    color:white;
+    text-decoration: none;
+}
+.footer_text3 a {
+    color:rgb(243, 56, 56); 
+}
+.footer_text3 a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.footer_text2 {
+    width:200px;
+    height:70px;
+    font-size: 40px;
+    text-align: center;
+
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.footer_text2 img {
+    width:50px;
+    height:50px;
+    border-radius:50%; 
+}
+.footer_text2 img:hover {
+    border:1px solid red;
+ 
+}
+.footer_img {
+    width:14%;
+    height:100%;
+
+    background-image: url('img/ensoWhite.png');
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+}
+
+.footer_virtues {
+    color:white;
+    width:440px;
+    height:30px;
+    margin-top:auto;
+    color:rgb(243, 56, 56); 
+    font-family:'Yu Gothic';
+}
+.footer_virtues span:hover{
+    color:white;
+    cursor: pointer;
+}
+
+
+/* VIRTUES OF BUSHIDO */
+
+
+
+.sixth_div_body {
+    position: relative;
+    cursor: pointer;
+}
+.popuptext{
+    visibility: hidden;
+    width: 90%;
+    height:70%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    z-index: 1;
+    position: fixed;
+    opacity:0;
+    transition:0.3s;
+   
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-70%) scale(0.9);
+}
+.overlay{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.8);
+    z-index:1;
+    opacity:0;
+    transition:0.3s;
+    visibility: hidden;
+}
+
+.sixth_div_body .show {
+    visibility: visible;
+    opacity:1;
+}
+
+
