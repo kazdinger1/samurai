@@ -1,0 +1,234 @@
+@font-face {
+    font-family: norse;
+    src: url(font/RunyTunesRevisitedNF.ttf);
+}
+@font-face {
+    font-family: norse2;
+    src: url(font/Norse.otf);
+}
+
+.first {
+    width:100%;
+    height:70vh;
+    background-image: url('img/vikingWall2.jpg');
+    background-size: 100% ;
+    position:relative;
+}
+
+
+.navbar {
+    width:60%;
+    height:11%;
+    margin:auto;
+    color:white;
+}
+.navbar_linkovi {
+    
+    font-size: 35px;
+    font-family: norse;
+}
+.navbar a {
+    padding:30px;
+    margin:auto;
+    color:white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: #add8e6;
+}
+
+.navbar1 {
+    width:100%;
+    height:7%;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: white;
+    visibility: hidden;
+    position:fixed;
+    z-index: 1;
+}
+.navbar_linkovi1 {
+    
+    font-size: 35px;
+    font-family: norse;
+}
+.navbar1 a {
+    padding:30px;
+
+    margin:auto;
+    color:black;
+}
+.navbar1 a:hover {
+    text-decoration: none;
+    color: #add8e6;
+}
+/* SECOND */
+
+.second {
+    width:100%;
+    height:60vh;
+    display:flex;
+}
+/* .second1 {
+    width:50%;
+    height:100%;
+    display:flex;
+    margin:auto;
+    border:1px solid red;
+} */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.second_img {
+    width:30%;
+    height:100%;
+    margin:auto;
+    background-image: url('img/vikings1.jpg');
+    background-repeat:no-repeat;
+    transition:400ms;
+    transition-timing-function: ease;
+}
+.second_img:hover {
+    /* transform:scale(1.01,1.01); */
+   cursor:pointer;
+}
+.second_img_popUp {
+    width:50%;
+    height:90%;
+    position:fixed;
+    bottom:0;
+    right:0;
+    transform: translate(-50%,-6%);
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+    display:none;
+    -webkit-animation: fadeIn 1s;
+
+    border:2px solid black;
+}
+.second_img_popUp_img {
+    width:100%;
+    height:100%;
+    background-image: url('img/norseSign.png');
+    opacity:0.2;
+}
+.second_img_textP {
+    text-align:center;
+    font-size: 150%;
+}
+.second_img_popUp2 {
+    width:50%;
+    height:90%;
+    position:fixed;
+    bottom:0;
+    right:0;
+    transform: translate(-50%,-6%);
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+    display:none;
+    -webkit-animation: fadeIn 1s;
+    pointer-events: none;
+    border:2px solid black;
+}
+.iks {
+    position:absolute;
+    right:0;
+    background-color: black;
+    color:white;
+    width:5%;
+    height:5%;
+}
+.iks:hover {
+    cursor:pointer;
+    background-color: #add8e6;
+}
+
+/* .second_img_text {
+    width:0%;
+    height:100%;
+    transition:400ms;
+    margin:auto;
+    border:0px solid red;
+} */
+
+.second_text{
+    width:35%;
+    height:80%;
+    margin-top: 3%;
+    border:1px solid black;
+}
+.second_img2 {
+    width:30%;
+    height:100%;
+    margin:auto;
+    background-image: url('img/ragnar.png');
+    background-repeat: no-repeat;
+}
+.second_img2:hover {
+    /* transform:scale(1.01,1.01); */
+   cursor:pointer;
+}
+
+/* THIRD */
+
+.third {
+    width:100%;
+    height:60vh;
+    display: flex;
+
+}
+.third_text{
+    width:35%;
+    height:80%;
+    font-size: 120%;
+    text-align: center;
+
+    margin: auto;
+}
+.third_img{
+    width:50%;
+    height:98.5%;
+    background-image: url('img/vikings123.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+.footer {
+    width:100%;
+    height:20vh;
+    display:flex;
+    background-image: url('img/footerJPG.jpeg');
+    background-size: 25% 400%;
+}
+.footer_img {
+    background-image: url('img/asd33.png');
+    width:13%;
+
+    height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer_text {
+    width:30%;
+    height:100%;
+
+}
+.footer_text a {
+    color:white;
+    font-size: 160%;
+    font-family: norse;
+}
+.footer_text a:hover {
+    text-decoration: none;
+    color: #add8e6;
+}
+.slika:hover {
+    zoom:150%;
+    cursor: pointer;
+}

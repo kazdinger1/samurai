@@ -1,0 +1,293 @@
+body {
+    background-image: url('img/norsePattern10.jpg');
+}
+@font-face {
+    font-family: norse;
+    src: url(font/RunyTunesRevisitedNF.ttf);
+}
+@font-face {
+    font-family: norse2;
+    src: url(font/Norse.otf);
+}
+
+.first {
+    width:100%;
+    height:70vh;
+    background-color: black;
+
+    position:relative;
+}
+.first_rune {
+    width:30%;
+    height: 90%;
+  
+    background-repeat: no-repeat;background-size: contain;
+    position:absolute;
+    bottom:0;
+    opacity:1;
+    align-items: center;
+    background-image: url('img/odin3.png');
+}
+
+.first_freyja {
+    width:40%;
+    height:100%;
+    
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:0;
+    right:0;
+    background-image: url('img/freyja.jpg');
+}
+.first_crow {
+    width:25%;
+    height:80%;
+    position:absolute;
+    background-size: contain;bottom:0;
+    background-repeat: no-repeat;
+    background-image: url('img/blackRaven.jpg');
+}
+.mjolnir {
+    width:25%;
+    height:100%;
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('img/odin4.png');
+    right:0;
+    bottom:0;
+    transform: translate(-150%,-10%);
+
+}   
+
+.navbar {
+    width:60%;
+    height:11%;
+    margin:auto;
+    color:white;
+    z-index: 4;
+}
+.navbar_linkovi {
+    
+    font-size: 35px;
+    font-family: norse;
+}
+.navbar a {
+    padding:30px;
+    margin:auto;
+    color:white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: #add8e6;
+}
+
+.navbar1 {
+    width:100%;
+    height:7%;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: white;
+    visibility: hidden;
+    position:fixed;
+    z-index: 1;
+}
+.navbar_linkovi1 {
+    
+    font-size: 35px;
+    font-family: norse;
+}
+.navbar1 a {
+    padding:30px;
+
+    margin:auto;
+    color:black;
+}
+.navbar1 a:hover {
+    text-decoration: none;
+    color: #add8e6;
+}
+
+/* SECOND */
+
+.second {
+    width:100%;
+    height:200vh;
+    /* border:1px solid black; */
+}
+
+/* RELIGION TEXT */
+
+.religion {
+    width:100%;
+    height:50%;
+    /* border:1px solid red; */
+    display:flex;
+    
+}
+.religion_text {
+    width:68%;
+    height:100%;
+    background-size: contain;
+ /* font-family: sans-serif; */
+    margin-top: 25px;
+    font-size: 110%;
+
+}
+.naslov {
+    font-size: 250%;
+    font-family: norse;
+    /* color:#bb0a1e; */
+    color:white;
+    width:100%;
+    height:8.5%;
+
+}
+.religion_text1 {
+    text-align: center;
+    padding:3%;
+    width:100%;
+    height:58%;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.religion_img_okvir {
+    width:31%;
+    height:105.5%;
+    margin-top: 5px;
+
+}
+.religion_img {
+    width:100%;
+    height:91%;
+
+    background-size: 100% 100%;
+
+    background-image: url('img/jesus.jpg');
+}
+
+/* MITOLOGIJA */
+
+.mitologija {
+    width:100%;
+    height:44%;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.226);
+    display:flex;
+}
+.mitologija_text {
+    width:70%;
+    height:88.7%;
+
+}
+.mitologija_text1 {
+    text-align: center;
+    padding:2%;
+    font-size: 110%;
+}
+.mitologija_img {
+    width:30%;
+    height:100%;
+    margin: auto;
+    background-image: url('img/viking.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link {
+    background-color: transparent;
+    text-decoration: underline;
+    color:#bb0a1e;
+    cursor: pointer;
+    font-weight: 700;
+}
+.link:hover {
+    color:#ff001e;
+}
+
+/* FOOTER */
+
+.footer {
+    width:100%;
+    height:20vh;
+    display:flex;
+    background-image: url('img/footerJPG.jpeg');
+    background-size: 25% 400%;
+}
+.footer_img {
+    background-image: url('img/asd33.png');
+    width:13%;
+
+    height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer_text {
+    width:30%;
+    height:100%;
+
+}
+.footer_text a {
+    color:white;
+    font-size: 160%;
+    font-family: norse;
+}
+.footer_text a:hover {
+    text-decoration: none;
+    color: #add8e6;
+}
+
+.slika:hover {
+    zoom:150%;
+    cursor: pointer;
+}
+
+/* TIMELINE */
+/* 
+.second {
+    width:90%;
+    height:70vh;
+    margin:auto;
+    border:1px solid black;
+}
+.timeline {
+    width:90%;
+    height:40%;
+    border:1px solid red;
+    margin:10% auto;
+    background-image: url('img/timeline2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.samis {
+    width:10%;
+    height:20%;
+    margin-top: 0%;
+    margin-left: 11.2%;
+    position:absolute;
+    border: 5px solid #3a393b;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('img/samis.png');
+}
+.samis:hover {
+    zoom:1.4;
+}
+.germanMigration {
+    width:10%;
+    height:20%;
+    margin-top: -11%;
+    margin-left: 19.8%;
+    position:absolute;
+    border: 5px solid #3a393b;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('img/germanMigration.jpg');    
+}
+.germanMigration:hover {
+    zoom:1.4;
+} */
