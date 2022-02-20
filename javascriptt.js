@@ -69,3 +69,4 @@ jQuery(document).scroll(function () {
         jQuery('.second_text').animate({right: '100%'});
         }
 });
+
