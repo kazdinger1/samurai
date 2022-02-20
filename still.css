@@ -11,6 +11,7 @@
     font-family:'Yu Gothic';
     background-image: url('img/fabric.jpg');
     position:fixed;
+    z-index: 2;
 }
 .navBar a {
     padding:15px;

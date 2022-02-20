@@ -10,6 +10,7 @@
     font-family:'Yu Gothic';
     background-image: url('img/fabric.jpg');
     position:fixed;
+    z-index: 2;
 }
 .navBar a {
     padding:15px;
@@ -42,18 +43,15 @@ body {
 .ronin_text {
     width:60%;
     height:75%;
-
     color: rgb(243, 56, 56);
     margin:50px;
     font-family:'Yu Gothic'; 
-    /* border:1px solid navy; */
 }
 .ronin_image {
     width:30%;
     height:86.5%;
     border:2px solid white;
     margin:50px; 
-    /* border:1px solid red; */
     background-image: url('img/ronin1.jpg');
     background-size: 100% 100%;
 }
