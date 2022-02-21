@@ -7,7 +7,7 @@
 
 .navBar{
     border-bottom-right-radius: 55px;
-    width:20%;
+    width:15%;
     font-family:'Yu Gothic';
     background-image: url('img/fabric.jpg');
     position:fixed;
@@ -126,10 +126,10 @@ body {
     width:100%;
     height:50%;
     text-align: center;
-    font-size: 120%;
+    font-size: 1.2vw;
 }
 .header {
-    font-size: 50px;
+    font-size: 4vw;
 
 }
 
@@ -164,14 +164,14 @@ body {
 
 }
 .third_text_head {
-    font-size: 300%;
+    font-size: 3vw;
     text-align: center;
 }
 .third_text_body {
     display:flex;
     text-align: center;
     align-items: center;
-    font-size: 120%;
+    font-size: 1.2vw;
 }
 .third_nar img {
     position: absolute;
@@ -334,7 +334,7 @@ body {
 
 .footer{
     width:100%;
-    height:210px;
+    height:28vh;
     display:flex;
     position:relative;
     /* background-size: contain;

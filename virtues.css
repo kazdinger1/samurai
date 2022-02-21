@@ -1,4 +1,5 @@
 /* JUSTICE */
+
 .justice {
     width:100%;
     height:100vh;
@@ -22,50 +23,7 @@
     background-repeat: no-repeat;
     background-image: url('img/justice.jpg');
 }
-.justice_text {
-    width:35%; height:100%;
-    font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
-    background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
-    color:rgb(231, 228, 228);
-    text-align: center;
-    padding:20px;
 
-    font-size: 120%;
-}
-.justice_text p {
-    /* color: rgba(248, 11, 11, 0.651); */
-    color:white;
-}
-/* LINK NAZAD */
-
-.justice_image a {
-    width:50px;
-    height:100px;
-    font-size: 30px;
-    margin-left: 15px;
-    color:white;
-    background-color: rgba(0, 0, 0, 0.616);
-    font-family:'Yu Gothic';
- }
-.justice_image a:hover {
-    color:rgb(243, 56, 56);
-    text-decoration: none;
- }
- /* .selfcontrol_left a {
-    width:50px;
-    height:100px;
-    font-size:10px;
-    margin-left: 15px;
-    color:white;
-    background-color: rgba(0, 0, 0, 0.616);
-    font-family:'Yu Gothic';
- }
-.selfcontrol_left a:hover {
-    color:rgb(243, 56, 56);
-    text-decoration: none;
- } */
  /* SELF-CONTROL */
 
 .selfcontrol {
@@ -80,51 +38,37 @@
     background-color: rgb(24, 23, 23);
 }
 .selfcontrol_left_img {
-    width:60%;
+    width:100%;
     height:85%;
-    position:absolute;
-    top:0;
     background-repeat: no-repeat;
+    background-size: contain;
     background-image: url('img/whiteDrake3.jpg');
 }
 .selfcontrol_middle {
     height:90%;
     width:45%;
-    position:absolute;
-    left:28%;
-    bottom:30%;
-    top:5%;
     z-index: 1;
- 
     padding:20px;
-
-    font-size: 120%;
+    font-size: 1.2vw;
     background-image: url('img/fabric.jpg');
 }
-.selfcontrol_middle p{
-    color:white;
-    background-color: transparent;
-}
+
 .selfcontrol_right {
     height:100%;
     width:50%;
     position:relative;
     background-color: #e2dfdf;
 }
-.selfcontrol_right_text {
-    width:50%;
-    height:100%;
 
-}
 .selfcontrol_right_img {
-    width:60%;
+    width:100%;
     height:85%;
-    position:absolute;
-    right:0;
-    top:0;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url('img/blackDragon1.jpg');
 }
+
+/* COURAGE */
 
 .courage {
     width:100%;
@@ -149,18 +93,8 @@
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
 }
-.courage_text {
-    width:35%; height:100%;
-    font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
-    background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
-    color:rgb(231, 228, 228);
-    text-align: center;
-    padding:20px;
 
-    font-size: 120%;
-}
+/* LOYALTY */
 
 .loyalty {
     width:100%;
@@ -185,18 +119,6 @@
     top:50%;
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
-}
-.loyalty_text {
-    width:35%; height:100%;
-    font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
-    background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
-    color:rgb(231, 228, 228);
-    text-align: center;
-    padding:20px;
-
-    font-size: 120%;
 }
 
 /* HONOR */
@@ -225,18 +147,7 @@
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
 }
-.honor_text {
-    width:35%; height:100%;
-    font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
-    background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
-    color:rgb(231, 228, 228);
-    text-align: center;
-    padding:20px;
 
-    font-size: 120%;
-}
 /* HONESTY */
 
 .honesty {
@@ -263,18 +174,7 @@
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
 }
-.honesty_text {
-    width:35%; height:100%;
-    font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
-    background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
-    color:rgb(231, 228, 228);
-    text-align: center;
-    padding:20px;
 
-    font-size: 120%;
-}
 /* MERCY */
 
 .mercy {
@@ -300,18 +200,6 @@
     top:50%;
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
-}
-.mercy_text {
-    width:35%; height:100%;
-    font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
-    background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
-    color:rgb(231, 228, 228);
-    text-align: center;
-    padding:20px;
-
-    font-size: 120%;
 }
 
 /* RESPECT */
@@ -340,15 +228,19 @@
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
 }
-.respect_text {
+
+.naslovVirtue {
+    font-size: 4vw;
+}
+.podnaslovVirtue {
+    font-size: 5vw;
+}
+.textVirtue {
     width:35%; height:100%;
     font-family:'Yu Gothic';
-    /* background-color: rgba(3, 3, 3, 0.897); */
     background-image: url('img/fabric.jpg');
-    /* color:rgb(243, 56, 56); */
     color:rgb(231, 228, 228);
     text-align: center;
     padding:20px;
-
-    font-size: 120%;
+    font-size: 1.2vw;
 }
