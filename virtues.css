@@ -1,0 +1,197 @@
+/* JUSTICE */
+
+.virtue_card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.virtue_card_image {
+  width: 65%;
+  height: 100vh;
+  background-image: url("img/zmaj1.jpg");
+  position: relative;
+}
+.justice_image_img {
+  width: 70%;
+  height: 67%;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-image: url("img/justice.jpg");
+}
+
+/* SELF-CONTROL */
+
+.selfcontrol {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.selfcontrol_left {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(24, 23, 23);
+}
+.selfcontrol_left_img {
+  width: 100%;
+  height: 85%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("img/whiteDrake3.jpg");
+}
+.selfcontrol_middle {
+  height: 90%;
+  width: 45%;
+  z-index: 1;
+  padding: 20px;
+  font-size: 1.2vw;
+  background-image: url("img/fabric.jpg");
+}
+
+.selfcontrol_right {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  background-color: #e2dfdf;
+}
+
+.selfcontrol_right_img {
+  width: 100%;
+  height: 85%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("img/blackDragon1.jpg");
+}
+
+/* COURAGE */
+
+.courage_image_img {
+  background-image: url("img/bravery.jpg");
+  width: 90%;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+/* LOYALTY */
+
+.loyalty_image_img {
+  background-image: url("img/girlJapan.jpg");
+  width: 90%;
+  height: 70%;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+/* HONOR */
+
+.honor_image_img {
+  background-image: url("img/honor1.jpg");
+  width: 55%;
+  height: 95%;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+/* HONESTY */
+
+.honesty_image_img {
+  background-image: url("img/samuraiHonesty.jpg");
+  width: 90%;
+  height: 62.3%;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+/* MERCY */
+
+.mercy_image_img {
+  background-image: url("img/og.jpg");
+  width: 53%;
+  height: 95%;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+/* RESPECT */
+
+.respect_image_img {
+  background-image: url("img/respect1.jpg");
+  width: 80%;
+  height: 75%;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+.naslovVirtue {
+  font-size: 4vw;
+}
+.podnaslovVirtue {
+  font-size: 5vw;
+}
+.virtue_card_text {
+  width: 35%;
+  height: 100%;
+  font-family: "Yu Gothic";
+  background-image: url("img/fabric.jpg");
+  color: rgb(231, 228, 228);
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .virtue_card_image {
+    display: none;
+  }
+  .naslovVirtue {
+    font-size: 2rem;
+  }
+  .podnaslovVirtue {
+    font-size: 3rem;
+  }
+  .virtue_card_text {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .selfcontrol_left {
+    display: none;
+  }
+  .selfcontrol_middle {
+    height: 100%;
+    width: 100%;
+    font-size: 0.75rem;
+    background-image: url("img/fabric.jpg");
+  }
+  .selfcontrol_right {
+    display: none;
+  }
+}
